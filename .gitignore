@@ -1,0 +1,12 @@
+# secrets
+*.env
+.env*
+# never commit whole run folders; archive/<run>/ holds only results.json + cited transcripts
+runs/
+archive/**/attempt*/
+# python
+__pycache__/
+*.pyc
+.venv/
+# OS
+.DS_Store
